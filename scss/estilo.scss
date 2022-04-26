@@ -1,0 +1,205 @@
+.menú {
+    ul {
+    
+        h1 {  text-align: center;
+        justify-content: center;
+        font-size: xx-large;
+        background-color: linear-gradient( to left, blue, grey);
+        }
+    
+            li {
+                list-style: none;
+                display: inline-block;
+                justify-content: center;
+                text-align: center;
+                font-size: x-large;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 1rem;
+                border: 1px 1px 1px 1px;
+                position: relative;
+                left: 280px;
+                border-right: 1px solid white
+            }
+                .boton {
+                    color: blue;
+                    background-color: grey;
+                }
+                    a {
+                        color: white;
+                    }
+    }
+}
+
+
+//columna boostrap
+
+
+.container {
+    .col {
+        border: 1px none black;
+        text-align: center;
+        padding: 1rem;
+        background-color: white;
+    }
+            &:hover{
+                color: blue;
+                background-color: grey;
+            }
+}
+
+
+main {
+    .grid-container {
+        display: grid;
+        background-image: (grey) ;
+        grid-template-columns: 23rem 23rem 23rem;
+        grid-template-rows: 23rem 23rem;
+        margin-top: 18rem;
+        margin: 0%;
+        align-items: center;
+        justify-content: center;
+    }
+            h2 {
+                text-align: center;
+                font-size: x-large;
+                background-color: cornflowerblue;
+                margin: 2rem;
+                }
+                    h3{
+                        font-size: medium;
+                    }
+                        div {
+                        padding: 1rem;
+                        background-color: whitesmoke;
+                        border: 1px solid black;
+                        color: black;
+                        text-align: center;
+                        align-items: center;
+                        font-size: medium;
+                        justify-content: center;
+                        }
+                            &:hover {
+                                color: blue;
+                                background-color: grey;
+                            }
+                
+                }
+main {
+
+                .img2 img {
+                    width: 9rem;
+                }
+
+
+                .img3 img {
+                    width: 12rem;
+                    height: 9,8rem;
+                }
+
+                .img4 img {
+                    width: 12rem;
+                }
+                .img5 img{
+                    width: 11rem;
+                }
+                .img6 img {
+                    width: 9rem;
+                }
+            }
+
+article {
+    ul {
+        list-style:none ;
+        display: flex;
+        justify-content: center;}
+        li {
+            height: 3rem;
+            width: 12rem;
+            margin: 1rem;
+        }
+}
+
+section {
+    h3 {
+        margin-top: 6rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: x-large;
+        background-color: rgb(83, 83, 221);
+    }
+        grid-container-section {
+            list-style: none ;
+    }
+            ul {
+                display: grid;
+                background-image: linear-gradient(grey, rgb(105, 105, 206));
+                grid-template-columns: 23rem 23rem 23rem;
+                grid-template-rows: 23rem 23rem;
+                margin-top: 18rem;
+                margin: 0%;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+    }
+}
+
+.hijos li {
+    .compra-protegida img {
+        width: 20rem;
+        height: 15rem;
+    }
+        h4 {
+            display: inline;
+            font-size: medium;
+            padding: 1rem;
+            margin: 1rem;
+        }
+            p {
+                font-size: medium;
+            }
+}
+
+.formas-de-pago img{
+    width: 20rem;
+    height: 15rem;
+    
+}
+
+.grid-container-footer{
+    margin: 1rem;
+    text-align: center;
+    font-size: xx-large;
+        ul{
+            text-align: center;
+            margin: 1rem;
+            padding: 1rem;
+        }
+            li{
+                display: inline;
+                text-align: center;
+            }
+                h4{
+                    text-align: center;
+    font-size: x-large;
+                }
+}
+
+.alineando-footer {
+    display: grid;
+    background-color: cornsilk;
+    grid-template-rows: 23rem;
+    margin-top: 18rem;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+        ul{
+            text-align: center;
+        justify-content: center;
+        }
+            .imagen {
+                transition: all;
+            }
+                &:hover {
+                    transform: rotate(50deg);
+                }
+}
