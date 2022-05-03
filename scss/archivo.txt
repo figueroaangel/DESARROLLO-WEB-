@@ -1,0 +1,2 @@
+ <meta name="golf" content="golf,palos,hierros,maderas,driver,pelota,putter">
+    <meta name="lphq golfstore" content="pagina de golf destinada a la venta de accesorios para el juego del mismo"> 

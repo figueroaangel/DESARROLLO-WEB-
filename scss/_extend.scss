@@ -1,0 +1,8 @@
+.estilogeneral {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.estilogeneral2 {
+    @extend .estilogeneral;
+}

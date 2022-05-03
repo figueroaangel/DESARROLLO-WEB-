@@ -1,4 +1,16 @@
 @charset "UTF-8";
+.parrafos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: center; }
+
+.estilogeneral, .estilogeneral2 {
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif; }
+
+body {
+  background-color: #d8d8c8; }
+
 .menú ul h1 {
   text-align: center;
   justify-content: center;
@@ -68,20 +80,118 @@ main:hover {
   color: blue;
   background-color: grey; }
 
+main .grid-container .img1 img {
+  width: 20rem;
+  height: 10rem; }
+
+main .grid-container .img1 .img1 h3 {
+  font-size: medium; }
+
+main .grid-container .card {
+  align-items: center;
+  border: 1px solid; }
+  main .grid-container .card .card-img-top-1 {
+    margin: 1rem; }
+  main .grid-container .card .img1 h3 {
+    font-size: medium; }
+
+main .grid-container .card-2 img {
+  width: 9rem; }
+
+main .grid-container .card-3 img {
+  width: 10rem; }
+
+main .grid-container .card-img-top-3 {
+  margin: 1rem; }
+
+main .grid-container .img3 img {
+  width: 12rem;
+  height: 8rem; }
+
+main .grid-container .img3 h3 {
+  font-size: medium; }
+
+main .grid-container .card-4 img {
+  width: 9rem; }
+
+main .grid-container .card-5 img {
+  width: 10rem; }
+
+main .grid-container .card-5 h2 {
+  font-size: large; }
+
+main .grid-container .card-6 img {
+  width: 9rem; }
+
+main .grid-container .card-7 img {
+  width: 10rem; }
+
+main .grid-container .card-8 img {
+  width: 9rem; }
+
+main .grid-container .card-img-top-2 {
+  margin: 1rem; }
+
+main .grid-container .card-img-top-4 {
+  margin: 1rem; }
+
+main .grid-container .card-img-top-5 {
+  margin: 1rem;
+  height: 8rem; }
+
+main .grid-container .card-img-top-6 {
+  margin: 1rem;
+  height: 8rem; }
+
 main .img2 img {
   width: 9rem; }
 
-main .img3 img {
-  width: 12rem;
-  height: 9,8rem; }
+main .img2 h3 {
+  font-size: medium; }
 
 main .img4 img {
   width: 12rem; }
 
+main .img4 h3 {
+  font-size: medium; }
+
 main .img5 img {
   width: 11rem; }
 
+main .img5 h3 {
+  font-size: medium; }
+
 main .img6 img {
+  width: 9rem; }
+
+main .img6 h3 {
+  font-size: medium; }
+
+main .card img {
+  width: 11rem; }
+
+main .card-2 img {
+  width: 9rem; }
+
+main .card-3 img {
+  width: 10rem; }
+
+main .card-4 img {
+  width: 9rem; }
+
+main .card-5 img {
+  width: 10rem; }
+
+main .card-5 h2 {
+  font-size: large; }
+
+main .card-6 img {
+  width: 9rem; }
+
+main .card-7 img {
+  width: 10rem; }
+
+main .card-8 img {
   width: 9rem; }
 
 article ul {
@@ -94,43 +204,49 @@ article li {
   width: 12rem;
   margin: 1rem; }
 
-section h3 {
-  margin-top: 6rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  font-size: x-large;
-  background-color: #5353dd; }
-
-section grid-container-section {
+section {
   list-style: none; }
-
-section ul {
-  display: grid;
-  background-image: linear-gradient(grey, #6969ce);
-  grid-template-columns: 23rem 23rem 23rem;
-  grid-template-rows: 23rem 23rem;
-  margin-top: 18rem;
-  margin: 0%;
-  align-items: center;
-  text-align: center;
-  justify-content: center; }
-
-.hijos li .compra-protegida img {
-  width: 20rem;
-  height: 15rem; }
-
-.hijos li h4 {
-  display: inline;
-  font-size: medium;
-  padding: 1rem;
-  margin: 1rem; }
-
-.hijos li p {
-  font-size: medium; }
-
-.formas-de-pago img {
-  width: 20rem;
-  height: 15rem; }
+  section grid-container-section section ul {
+    display: grid;
+    background-image: linear-gradient(grey, #6969ce);
+    grid-template-columns: 23rem 23rem 23rem;
+    grid-template-rows: 23rem 23rem;
+    margin-top: 18rem;
+    margin: 0%;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  section grid-container-section .hijos h3 {
+    margin-top: 6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    background-color: #5353dd; }
+    section grid-container-section .hijos h3 ul {
+      display: grid;
+      background-image: linear-gradient(grey, #6969ce);
+      grid-template-columns: 23rem 23rem 23rem;
+      grid-template-rows: 23rem 23rem;
+      margin-top: 18rem;
+      margin: 0%;
+      align-items: center;
+      text-align: center;
+      justify-content: center; }
+  section .hijos li .compra-protegida img {
+    width: 20rem;
+    height: 15rem; }
+  section .hijos li h4 {
+    display: inline;
+    font-size: medium;
+    padding: 1rem;
+    margin: 1rem; }
+  section .hijos li p {
+    list-style: none;
+    font-size: medium; }
+  section .formas-de-pago img {
+    width: 20rem;
+    height: 15rem; }
 
 .grid-container-footer {
   margin: 1rem;
@@ -147,7 +263,7 @@ section ul {
     text-align: center;
     font-size: x-large; }
 
-.alineando-footer {
+.grid-container-footer {
   display: grid;
   background-color: cornsilk;
   grid-template-rows: 23rem;
@@ -155,10 +271,10 @@ section ul {
   margin: 0%;
   align-items: center;
   justify-content: center; }
-  .alineando-footer ul {
+  .grid-container-footer ul {
     text-align: center;
     justify-content: center; }
-  .alineando-footer .imagen {
+  .grid-container-footer .imagen {
     transition: all; }
-  .alineando-footer:hover {
+  .grid-container-footer:hover {
     transform: rotate(50deg); }
