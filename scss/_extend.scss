@@ -1,8 +1,5 @@
-.estilogeneral {
+.estilocardsdelmain {
+    align-items: center;
+    margin: 1rem;
     font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.estilogeneral2 {
-    @extend .estilogeneral;
 }
