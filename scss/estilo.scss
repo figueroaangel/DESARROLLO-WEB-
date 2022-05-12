@@ -4,14 +4,13 @@
 /*vista celular*/
 @media (max-width: 767px) {
     body {
-        background-color: cadetblue;
         text-align: left;
-        /*grid-template-areas: 
+        grid-template-areas: 
         "header"
         "main"
         "article"
         "section"
-        "footer";*/
+        "footer";
     }
 }
 
@@ -29,13 +28,13 @@
 
 
 
-/*
-@media max-widht 767px {
+
+@media (max-widht: 767px) {
     .menú li {
         display: flex;
         flex-direction: column;
     }
-}*/
+}
 
 
 @media  (max-width: 768px)  {
@@ -55,28 +54,50 @@
     }
 }
 
-body {
-    background-color: rgb(216, 216, 200);
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
+
 header{
-    h1 {
+    background-image: url(../img/imagentitulo.jpeg);
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment:scroll;
+    background-size: cover;
+        h1 {
         text-align: center;
         justify-content: center;
-        font-size:10rem;
-        font-family:'Times New Roman', Times, serif;
+        font-size:5rem;
+        font-family: 'Quintessential', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Water Brush', cursive;
         background-color: linear-gradient( to left, blue, grey);
     }
+        .pages{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 2rem;
+            }
+                h2 {
+                        text-align: center;
+                        font-family: 'Quintessential', cursive;
+                        font-family: 'Ubuntu', sans-serif;
+                        font-family: 'Water Brush', cursive;
+                        font-size: 3rem;
+                        }
     .menú ul {
         text-align: left;
     }
         li{
         list-style: none;
-        align-items: center;
+        align-items: left;
         display: inline-block;
-        justify-content: center;
-        text-align: center;
-        font-size: x-large;
-        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+        text-align: left;
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding: 1rem;
         border: 1px 1px 1px 1px;
         position: relative;
@@ -84,14 +105,14 @@ header{
         border-right: 1px solid white
 }
             a {
-            color: white;
+            color: black;
                 }
                 .boton :hover {
-                    color: blue;
+                    color: white;
                     background-color: grey;
                 }
                 .col {
-                    border: 1px none black;
+                    border: 1px none white;
                     text-align: center;
                     padding: 1rem;
                     background-color: white;
@@ -101,30 +122,54 @@ header{
                     color: blue;
                     background-color: grey;
                 }
-                
-}
+                .logos{
+                    list-style:none ;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: fit-content;
+                    align-items: center;
+                    width: 9rem;
+                    height: 9rem;
+                    margin-left: 20rem;
+                        img{
+                            padding: 0%;
+                            width: 12rem;
+                        }
+                                }
+                                .imageneslogo {
+                                    display: flex;
+                                    align-content:center;
+                                }
+                            li :hover {
+                                color: blue;
+                                background-color: white;
+                }
+            } 
+
+
 
 main {
 .grid-container {
     display: grid;
-    background-image: (grey) ;
+    background-position: center center;
     grid-template-columns: 23rem 23rem 23rem;
     grid-template-rows: 23rem 23rem;
-    margin-top: 18rem;
+    margin-top: 24rem;
     margin: 0%;
     align-items: center;
     justify-content: center;}
-    h2 {
+    h3 {
         text-align: center;
-        font-size: x-large;
-        background-color: cornflowerblue;
-        margin: 2rem;
+        font-size: 2rem;
+}
+.grid-container-set-de-palos {
+    margin-top: 28rem;
 }
             
 .grid-container div {
-    padding: 1rem;
-    background-color: whitesmoke;
-    border: 1px solid black;
+    padding: 2rem;
+    border: 1px none;
     color: black;
     text-align: center;
     align-items: center;
@@ -138,26 +183,29 @@ main{
     .card {
         align-items: center;
     }
-}
     .card-img-top-1 {
         margin: 1rem;
     }
     img {
-        width: 15rem;
-        height: 9rem;   
+        width: 16rem;
+        height: 10rem;   
     }
-    .img1 h3 {
-        font-size: medium;
+    .img1 p {
+        margin: 0%;
+        padding: 0%;
     }    
     .card-img-top-2 {
-        margin: 1rem;
+        margin: 1rem
     }
     .img2 img {
-        width: 9rem;
+        width: 10rem;
+        height: 10rem;
     }
-    .img2 h3 {
-        font-size: medium;
+    .img2 p {
+        margin: 0%;
+        padding: 0%;
     }
+}
 //ordenando cards 3 y 4 del main//
 main {
     .card-img-top-3 {
@@ -165,20 +213,25 @@ main {
     }
     .img3 img {
         width: 12rem;
-        height: 9rem;
+        height: 12rem;
     }
-    .img3 h3 {
-        font-size: medium;
+    .img3 p{
+        margin: 0%;
+        padding: 0%;
     }
+
     .card-img-top-4 {
         margin: 1rem;
     }
     .img4 img {
         width: 12rem;
+        height: 16rem;
     }
-    .img4 h3 {
-        font-size: medium;        
-}
+    .img4 p {
+        margin: 0%;
+        padding: 0%;
+    }
+
 }
 //ordenando las cards 5 y 6 del main//
 main {
@@ -188,87 +241,144 @@ main {
         .img5 img{
         width: 11rem;
     }  
-    .img5 h3 {
-        font-size: medium;
-}
+    .img5 img{
+        width: 12rem;
+        height: 16rem;
+    }
+    .img5 p {
+        margin: 0%;
+        padding: 0%;
+    }
+
 .card-img-top-6 {
     margin: 1rem;
     height: 8rem;
 }
 .img6 img {
-    width: 9rem;
+    width: 12rem;
+    height: 16rem;
 }
-.img6 h3 {
-    font-size: medium;
+.img6 p { 
+    margin: 0%;
+    padding: 0%;
 }
 }
 /*cards de set de hierros*/
 main{
-    
+    .card-1-hierros {
+        padding: 0%;
+    }
+    .card-1-hierros img {
+        width: 18rem;
+        height: 12rem;
+    }
+    .card-1-hierros h2{
+        font-size: x-large;
+    }
     .card img {
         width: 18rem;
-        height: 15rem;}
+        height: 18rem;}
     .card-2 img {
             width: 18rem;
-            height: 11rem;}
+            height: 13rem;}
     .card-3 img {
+        width: 18rem;
+        height: 15rem;}
+    .card-4 img {
             width: 18rem;
-            height: 15rem;}
-    .card img-4 {
-            width: 18rem;
-            height: 15rem;}
+            height: 12rem;}
     .card-5 img {
             width: 18rem;
-            height: 15rem;}
+            height: 12rem;}
+    .card-5 h2{
+            font-size: x-large;
+            }
     .card-6 img {
             width: 18rem;
-            height: 15rem;}
+            height: 12rem;}
     .card-7 img {
         width: 18rem;
-        height: 15rem;
+        height: 12rem;
     }
     .card-8 img {
-        width: 15rem;
-        height: 20rem;
+        width: 8rem;
+        height: 12rem;
     }
     .card-9 img {
         width: 15rem;
-        height: 10rem;
+        height: 12rem;
     }
 }
 /*cards de la pagina de bolsas*/ 
 
 main {
     .card-bolsas img {
-        width: 9rem;
-        height: 10rem;
+        width: 10rem;
+        height: 12rem;
     }
+    
+    .card-bolsas-2 img{
+        width: 14rem;
+        height: 12rem;
+    }
+    .card-bolsas-3 img{
+        width: 12rem;
+        height: 12rem;
 }
-
+.card-bolsas-4 img{
+    width: 12rem;
+    height: 14rem;
+}
+.card-bolsas-5 img{
+    width: 12rem;
+    height: 16rem;
+}
+.card-bolsas-6 img{
+    width: 10rem;
+    height: 14rem;
+}
+.card-img-top-5{
+    width: 16;
+    height: 10;
+}
+}
 /*caeds de la pagina de drivers*/ 
 main {
     .card-driver img{
+        width: 10rem;
+        height: 12rem;
+    }
+    .card-driver-2 img{
+        width: 10rem;
+        height: 12rem;
+    }
+    .card-driver-3 img{
+        width: 10rem;
+        height: 13rem;
+    }
+    .card-driver-4 img{
+        width: 10rem;
+        height: 13rem;
+    }
+    .card-driver-5 img{
         width: 12rem;
-        height: 10rem;
+        height: 13rem;
+    }
+    .card-driver-6 img{
+        width: 12rem;
+        height: 14rem;
     }
 }
-article{
-    
-        ul {
-    list-style:none ;
-    display: flex;
-    justify-content: center;
-    margin: 1rem;
-    padding: 5px;
-}
-            li {
-    height: 3rem;
-    width: 15rem;
-}
-                li :hover {
-    color: blue;
-    background-color: rgb(238, 9, 123)
-}
+
+/*contacto*/
+main{
+    h2{
+        font-size: 35px;
+    }
+    .formulario{
+        padding: 5px;
+        background-image: linear-gradient( rgb(200, 214, 201), rgb(237, 245, 243));
+    }
 }
 //article set de palos// 
 .información-necesaria {
@@ -280,12 +390,32 @@ article{
     }
 
 section{
+    .card mb-3{
+        margin: 0%;
+    }
+    .card-img{
+        width: 20rem;
+    }
+    .card-title{
+        text-align: center;
+        font-size: large;
+    }
+    .card-text{
+        text-align: center;
+        font-size: medium;
+    }
+    .card bg-dark text-whitey{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+section{
         h3 {
         margin-top: 6rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         font-size: x-large;
-        background-color: rgb(83, 83, 221);
 }
 
 .grid-container-section {
@@ -298,24 +428,27 @@ section{
     align-items: center;
     text-align: center;
     justify-content: center;
-}
     
-.grid-container-section ul {
-        list-style: none ;
+        .grid-container-section ul {
+                list-style: none ;
+                }
+                    .hijos ul {
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 1rem;
+                        align-items: center;
+                        align-content: center;
+                        }
+                            .imagen-local img{
+                                    width: 25rem;
+                                    height: 15rem;
+                                    }
+                                        p{
+                                            text-align: center;
+                                        }
         }
-        .hijos ul {
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-            padding: 1rem;
-            align-items: center;
-            align-content: center;
-        }
-        .imagen-local img{
-            width: 25rem;
-            height: 15rem;
-            }
-        }
+    }
 
 
 section {   
@@ -366,50 +499,70 @@ section {
     height: 12rem;
 }
 
+/*section indumentaria*/  
+section{
+    .imagen-indumentaria{
+        display: flex;
+        align-content: space-between;
+        flex-direction: row;
+    }
+    .img-ind-section {
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
 .grid-container-footer {
     display: grid;
     background-image: linear-gradient(rgb(224, 217, 217), white);
-    grid-template-rows: 23rem;
-    margin-top: 18rem;
+    /*grid-template-rows: 23rem;
+    margin-top: 18rem;*/
     margin: 0%;
     align-items: center;
     justify-content: center;}
-    h3 {
-        margin: 1rem;
-        text-align: center;
-        font-size: xx-large;
-    }
-    ul {
-        text-align: center;
-        margin: 1rem;
-        padding: 1rem;}
-        li {
-            display: inline;
+            h3 {
+                margin: 1rem;
+                text-align: center;
+                font-size: x-large;
+            }
+                ul {
+                text-align: center;
+                margin: 1rem;
+                padding: 1rem;}
+                    li {
+                    display: inline;
+                    text-align: center;
+                    }
+            h4 {
             text-align: center;
-        }
-        h4 {
-            text-align: center;
-            font-size: x-large;
-        }
+            font-size: large;
+            }
     // seguimos con el footer//
     
-    .alineando-footer {
-        display: grid;
-    background-color: cornsilk;
-    /*grid-template-columns: 23rem;*/
-    grid-template-rows: 23rem;
-    margin-top: 18rem;
-    margin: 0%;
-    align-items: center;
-    justify-content: center;
+    .grid-container-footer{
+            display: grid;
+            background-color: cornsilk;
+            margin-top: 18rem;
+            margin: 0%;
+            align-items: center;
+            justify-content: center;
     }
-    .alineando-footer ul {
-        text-align: center;
-        justify-content: center;
-    }
-    .imagen {
-        transition: all;
-    }
-    .imagen :hover {
-        transform: rotate(50deg);
-    }
+            ul {
+            text-align: center;
+            justify-content: center;
+        }
+                .imagen {
+                    transition: all;
+                }
+                    .imagen :hover {
+                        transform: rotate(50deg);
+                    }
+                            p{
+                                text-align: center;
+                                font-weight: bold;
+                                font-size: medium;
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            }
+                            .card-horarios{
+                                font-weight: bold;
+                            }

@@ -1,0 +1,16 @@
+ Presupuesto Web: 
+Nombre:     Angel Figueroa   Fecha: 9/5/22    Proyecto: golf store web 		Válido hasta:15/05/22
+
+
+
+Proyecto: Descripción. Realizar un e-commerce, dedicada a la venta de accesorios de golf donde el cliente pueda encontrar todo lo que busca para realizar su deporte favorito
+Diseño del sitio: El mismo será confeccionado mediante HTML, CSS, utilizando como pre-procesador la tecnología SASS.
+El costo de la realización del mismo es de $200.000 válido por 5 días.
+SEO: El mismo se desarrollará mediante un SEO estándar, contará con el ofrecimiento de esta parte en la manutención del sitio y actualizaciones correspondientes instalando y configurando plugins básicos.
+El diseño contará en primera medida con la realización de un framework a discutir con el cliente, una vez aprobado el mismo se comenzará con la estructura del sitio que estará terminada a los 10 días de concluido el framework
+El contacto con el cliente será estrecho a medida que se avanza en la creación tanto del home principal como de las demás páginas, existirá un intercambio ida y vuelta para poder así plasmar el deseo del cliente dentro de la website.
+
+El SEO utilizado sera de netfily.com, totalmente gratuito con una capacidad determinada de visitas diarias. Si desea el cliente se puede traspolar dicha página a otro SEO con mayor capacidad de vistas diarias, teniendo ello un costo extra que se analizará al momento de realizar el cambio.
+
+
+

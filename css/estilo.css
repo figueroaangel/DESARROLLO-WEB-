@@ -7,14 +7,8 @@
 /*vista celular*/
 @media (max-width: 767px) {
   body {
-    background-color: cadetblue;
     text-align: left;
-    /*grid-template-areas: 
-        "header"
-        "main"
-        "article"
-        "section"
-        "footer";*/ } }
+    grid-template-areas: "header" "main" "article" "section" "footer"; } }
 
 @media (max-width: 767px) {
   .menú ul {
@@ -25,17 +19,14 @@
     position: relative;
     text-align: left; } }
 
-
 @media (max-widht: 767px) {
-    .menú li {
-        display: flex;
-        flex-direction: column;
-    }
-}
+  .menú li {
+    display: flex;
+    flex-direction: column; } }
+
 @media (max-width: 768px) {
   .grid-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     background-color: cornsilk;
     margin-top: 18rem;
     margin: 0%;
@@ -47,69 +38,102 @@
     flex-direction: column; } }
 
 body {
-  background-color: #d8d8c8; }
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
 
-header h1 {
-  text-align: center;
-  justify-content: center;
-  font-size: 10rem;
-  font-family: 'Times New Roman', Times, serif;
-  background-color: linear-gradient(to left, blue, grey); }
-
-header .menú ul {
-  text-align: left; }
-
-header li {
-  list-style: none;
-  align-items: center;
-  display: inline-block;
-  justify-content: center;
-  text-align: center;
-  font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 1rem;
-  border: 1px 1px 1px 1px;
-  position: relative;
-  left: 280px;
-  border-right: 1px solid white; }
-
-header a {
-  color: white; }
-
-header .boton :hover {
-  color: blue;
-  background-color: grey; }
-
-header .col {
-  border: 1px none black;
-  text-align: center;
-  padding: 1rem;
-  background-color: white; }
-
-header .container :hover {
-  color: blue;
-  background-color: grey; }
+header {
+  background-image: url(../img/imagentitulo.jpeg);
+  height: 50rem;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: scroll;
+  background-size: cover; }
+  header h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Water Brush', cursive;
+    background-color: linear-gradient(to left, blue, grey); }
+  header .pages {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem; }
+  header h2 {
+    text-align: center;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Water Brush', cursive;
+    font-size: 3rem; }
+  header .menú ul {
+    text-align: left; }
+  header li {
+    list-style: none;
+    align-items: left;
+    display: inline-block;
+    justify-content: left;
+    text-align: left;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+    border: 1px 1px 1px 1px;
+    position: relative;
+    left: 280px;
+    border-right: 1px solid white; }
+  header a {
+    color: black; }
+  header .boton :hover {
+    color: white;
+    background-color: grey; }
+  header .col {
+    border: 1px none white;
+    text-align: center;
+    padding: 1rem;
+    background-color: white; }
+  header .container :hover {
+    color: blue;
+    background-color: grey; }
+  header .logos {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    align-items: center;
+    width: 9rem;
+    height: 9rem;
+    margin-left: 20rem; }
+    header .logos img {
+      padding: 0%;
+      width: 12rem; }
+  header .imageneslogo {
+    display: flex;
+    align-content: center; }
+  header li :hover {
+    color: blue;
+    background-color: white; }
 
 main .grid-container {
   display: grid;
-  background-image: grey;
+  background-position: center center;
   grid-template-columns: 23rem 23rem 23rem;
   grid-template-rows: 23rem 23rem;
-  margin-top: 18rem;
+  margin-top: 24rem;
   margin: 0%;
   align-items: center;
   justify-content: center; }
 
-main h2 {
+main h3 {
   text-align: center;
-  font-size: x-large;
-  background-color: cornflowerblue;
-  margin: 2rem; }
+  font-size: 2rem; }
+
+main .grid-container-set-de-palos {
+  margin-top: 28rem; }
 
 main .grid-container div {
-  padding: 1rem;
-  background-color: whitesmoke;
-  border: 1px solid black;
+  padding: 2rem;
+  border: 1px none;
   color: black;
   text-align: center;
   align-items: center;
@@ -119,43 +143,49 @@ main .grid-container div {
 main .card {
   align-items: center; }
 
-.card-img-top-1 {
+main .card-img-top-1 {
   margin: 1rem; }
 
-img {
-  width: 15rem;
-  height: 9rem; }
+main img {
+  width: 16rem;
+  height: 10rem; }
 
-.img1 h3 {
-  font-size: medium; }
+main .img1 p {
+  margin: 0%;
+  padding: 0%; }
 
-.card-img-top-2 {
+main .card-img-top-2 {
   margin: 1rem; }
 
-.img2 img {
-  width: 9rem; }
+main .img2 img {
+  width: 10rem;
+  height: 10rem; }
 
-.img2 h3 {
-  font-size: medium; }
+main .img2 p {
+  margin: 0%;
+  padding: 0%; }
 
 main .card-img-top-3 {
   margin: 1rem; }
 
 main .img3 img {
   width: 12rem;
-  height: 9rem; }
+  height: 12rem; }
 
-main .img3 h3 {
-  font-size: medium; }
+main .img3 p {
+  margin: 0%;
+  padding: 0%; }
 
 main .card-img-top-4 {
   margin: 1rem; }
 
 main .img4 img {
-  width: 12rem; }
+  width: 12rem;
+  height: 16rem; }
 
-main .img4 h3 {
-  font-size: medium; }
+main .img4 p {
+  margin: 0%;
+  padding: 0%; }
 
 main .card-img-top-5 {
   margin: 1rem;
@@ -164,80 +194,137 @@ main .card-img-top-5 {
 main .img5 img {
   width: 11rem; }
 
-main .img5 h3 {
-  font-size: medium; }
+main .img5 img {
+  width: 12rem;
+  height: 16rem; }
+
+main .img5 p {
+  margin: 0%;
+  padding: 0%; }
 
 main .card-img-top-6 {
   margin: 1rem;
   height: 8rem; }
 
 main .img6 img {
-  width: 9rem; }
+  width: 12rem;
+  height: 16rem; }
 
-main .img6 h3 {
-  font-size: medium; }
+main .img6 p {
+  margin: 0%;
+  padding: 0%; }
 
 /*cards de set de hierros*/
+main .card-1-hierros {
+  padding: 0%; }
+
+main .card-1-hierros img {
+  width: 18rem;
+  height: 12rem; }
+
+main .card-1-hierros h2 {
+  font-size: x-large; }
+
 main .card img {
   width: 18rem;
-  height: 15rem; }
+  height: 18rem; }
 
 main .card-2 img {
   width: 18rem;
-  height: 11rem; }
+  height: 13rem; }
 
 main .card-3 img {
   width: 18rem;
   height: 15rem; }
 
-main .card img-4 {
+main .card-4 img {
   width: 18rem;
-  height: 15rem; }
+  height: 12rem; }
 
 main .card-5 img {
   width: 18rem;
-  height: 15rem; }
+  height: 12rem; }
+
+main .card-5 h2 {
+  font-size: x-large; }
 
 main .card-6 img {
   width: 18rem;
-  height: 15rem; }
+  height: 12rem; }
 
 main .card-7 img {
   width: 18rem;
-  height: 15rem; }
+  height: 12rem; }
 
 main .card-8 img {
-  width: 15rem;
-  height: 20rem; }
+  width: 8rem;
+  height: 12rem; }
 
 main .card-9 img {
   width: 15rem;
-  height: 10rem; }
+  height: 12rem; }
 
 /*cards de la pagina de bolsas*/
 main .card-bolsas img {
-  width: 9rem;
-  height: 10rem; }
+  width: 10rem;
+  height: 12rem; }
+
+main .card-bolsas-2 img {
+  width: 14rem;
+  height: 12rem; }
+
+main .card-bolsas-3 img {
+  width: 12rem;
+  height: 12rem; }
+
+main .card-bolsas-4 img {
+  width: 12rem;
+  height: 14rem; }
+
+main .card-bolsas-5 img {
+  width: 12rem;
+  height: 16rem; }
+
+main .card-bolsas-6 img {
+  width: 10rem;
+  height: 14rem; }
+
+main .card-img-top-5 {
+  width: 16;
+  height: 10; }
 
 /*caeds de la pagina de drivers*/
 main .card-driver img {
+  width: 10rem;
+  height: 12rem; }
+
+main .card-driver-2 img {
+  width: 10rem;
+  height: 12rem; }
+
+main .card-driver-3 img {
+  width: 10rem;
+  height: 13rem; }
+
+main .card-driver-4 img {
+  width: 10rem;
+  height: 13rem; }
+
+main .card-driver-5 img {
   width: 12rem;
-  height: 10rem; }
+  height: 13rem; }
 
-article ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 1rem;
-  padding: 5px; }
+main .card-driver-6 img {
+  width: 12rem;
+  height: 14rem; }
 
-article li {
-  height: 3rem;
-  width: 15rem; }
+/*contacto*/
+main h2 {
+  font-size: 35px; }
 
-article li :hover {
-  color: blue;
-  background-color: #ee097b; }
+main .formulario {
+  padding: 5px;
+  background-image: linear-gradient(#c8d6c9, #edf5f3); }
 
 .información-necesaria {
   align-items: center;
@@ -246,12 +333,29 @@ article li :hover {
 h3 {
   margin: 3rem; }
 
+section .card mb-3 {
+  margin: 0%; }
+
+section .card-img {
+  width: 20rem; }
+
+section .card-title {
+  text-align: center;
+  font-size: large; }
+
+section .card-text {
+  text-align: center;
+  font-size: medium; }
+
+section .card bg-dark text-whitey {
+  display: flex;
+  flex-direction: row; }
+
 section h3 {
   margin-top: 6rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  font-size: x-large;
-  background-color: #5353dd; }
+  font-size: x-large; }
 
 section .grid-container-section {
   display: grid;
@@ -263,21 +367,20 @@ section .grid-container-section {
   align-items: center;
   text-align: center;
   justify-content: center; }
-
-section .grid-container-section ul {
-  list-style: none; }
-
-section .hijos ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  align-items: center;
-  align-content: center; }
-
-section .imagen-local img {
-  width: 25rem;
-  height: 15rem; }
+  section .grid-container-section .grid-container-section ul {
+    list-style: none; }
+  section .grid-container-section .hijos ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    align-content: center; }
+  section .grid-container-section .imagen-local img {
+    width: 25rem;
+    height: 15rem; }
+  section .grid-container-section p {
+    text-align: center; }
 
 section .compra-protegida img {
   width: 20rem;
@@ -318,11 +421,21 @@ section .formas-de-pago img {
 .card-img-top-6 {
   height: 12rem; }
 
+/*section indumentaria*/
+section .imagen-indumentaria {
+  display: flex;
+  align-content: space-between;
+  flex-direction: row; }
+
+section .img-ind-section {
+  width: 20rem;
+  height: 20rem; }
+
 .grid-container-footer {
   display: grid;
   background-image: linear-gradient(#e0d9d9, white);
-  grid-template-rows: 23rem;
-  margin-top: 18rem;
+  /*grid-template-rows: 23rem;
+    margin-top: 18rem;*/
   margin: 0%;
   align-items: center;
   justify-content: center; }
@@ -330,7 +443,7 @@ section .formas-de-pago img {
 h3 {
   margin: 1rem;
   text-align: center;
-  font-size: xx-large; }
+  font-size: x-large; }
 
 ul {
   text-align: center;
@@ -343,19 +456,17 @@ li {
 
 h4 {
   text-align: center;
-  font-size: x-large; }
+  font-size: large; }
 
-.alineando-footer {
+.grid-container-footer {
   display: grid;
   background-color: cornsilk;
-  /*grid-template-columns: 23rem;*/
-  grid-template-rows: 23rem;
   margin-top: 18rem;
   margin: 0%;
   align-items: center;
   justify-content: center; }
 
-.alineando-footer ul {
+ul {
   text-align: center;
   justify-content: center; }
 
@@ -364,3 +475,12 @@ h4 {
 
 .imagen :hover {
   transform: rotate(50deg); }
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.card-horarios {
+  font-weight: bold; }
