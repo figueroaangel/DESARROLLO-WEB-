@@ -21,8 +21,10 @@
   font-size: medium;
   text-align: center; }
 
+.img-fluid {
+  height: 200px !important; }
+
 body {
-  background: linear-gradient(0.25turn, #edf7ec, #eeec63, #316d06a6);
   background-size: cover;
   margin: 0%;
   padding: 0%;
@@ -39,21 +41,21 @@ header {
     padding: 2rem;
     text-align: center;
     justify-content: center;
-    font-size: 7rem;
-    font-family: 'Quintessential', cursive;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Water Brush', cursive; }
+    font-size: 5rem;
+    font-family: "Quintessential", cursive;
+    font-family: "Ubuntu", sans-serif;
+    font-family: "Water Brush", cursive; }
   header h1 {
     justify-content: center;
-    font-family: 'Quintessential', cursive;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Water Brush', cursive; }
+    font-family: "Quintessential", cursive;
+    font-family: "Ubuntu", sans-serif;
+    font-family: "Water Brush", cursive; }
   header h2 {
     justify-content: center;
     text-align: center;
-    font-family: 'Quintessential', cursive;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Water Brush', cursive;
+    font-family: "Quintessential", cursive;
+    font-family: "Ubuntu", sans-serif;
+    font-family: "Water Brush", cursive;
     font-size: 5rem; }
   header .menú {
     padding: 1rem;
@@ -62,17 +64,8 @@ header {
     list-style: none;
     text-align: center; }
 
-h3 {
-  text-align: center;
-  padding-top: 3rem;
-  font-family: fantasy; }
-
 main .col-4-driver img {
   width: 12rem; }
-
-main h3 {
-  font-weight: bold;
-  font-size: xx-large; }
 
 main p {
   font-weight: bold;
@@ -90,49 +83,15 @@ main .formulario {
   border: 1px solid black; }
 
 section {
-  display: flex;
-  flex-direction: row;
   margin: 2rem;
-  padding: 2rem; }
-  section div {
-    margin-left: 5rem; }
-  section .card1 img {
-    width: 15rem; }
-  section .card2 img {
-    width: 13rem;
-    height: 17rem; }
-  section p {
-    text-align: center;
-    font-family: fantasy; }
-
-@media (max-widht: 867) {
-  section {
-    display: flex;
-    flex-direction: column; } }
+  padding: 2rem;
+  background: #fdfdfd;
+  border-radius: 10px; }
 
 h4 {
   text-align: center;
   padding-top: 3rem;
   font-family: fantasy; }
-
-article {
-  text-align: center;
-  margin: 5rem;
-  font-weight: bold; }
-  article .imgcontainer7 {
-    height: 15rem; }
-  article .imgcontainer9 {
-    height: 13rem; }
-  article .bolsas p {
-    font-size: fantasy;
-    font-size: larger; }
-
-.col {
-  text-align: center;
-  margin-bottom: 1rem;
-  padding: 1rem; }
-  .col p {
-    font-weight: bold; }
 
 .card-group {
   margin-top: 3rem;
