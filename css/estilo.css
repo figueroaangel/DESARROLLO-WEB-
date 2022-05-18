@@ -1,43 +1,29 @@
 @charset "UTF-8";
-.estilocardsdelmain {
+.facebook {
+  color: green; }
+
+.twiter {
+  color: yellow; }
+
+.instagram {
+  color: white; }
+
+.estilocardsdelmain, .segundoestilo {
   align-items: center;
   margin: 1rem;
   font-size: medium; }
 
-/*vista celular*/
-@media (max-width: 767px) {
-  body {
-    text-align: left;
-    grid-template-areas: "header" "main" "article" "section" "footer"; } }
+.segundoestilo {
+  padding: 1rem; }
 
-@media (max-width: 767px) {
-  .menú ul {
-    display: grid;
-    grid-auto-columns: 1fr;
-    flex-direction: column;
-    display: inline;
-    position: relative;
-    text-align: left; } }
-
-@media (max-widht: 767px) {
-  .menú li {
-    display: flex;
-    flex-direction: column; } }
-
-@media (max-width: 768px) {
-  .grid-container {
-    display: grid;
-    background-color: cornsilk;
-    margin-top: 18rem;
-    margin: 0%;
-    align-items: center; } }
-
-@media (max-whidth: 967px) {
-  .grid-container-footer {
-    display: flex;
-    flex-direction: column; } }
+.parrafos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: center; }
 
 body {
+  background: linear-gradient(0.25turn, #edf7ec, #eeec63, #316d06a6);
+  background-size: cover;
   margin: 0%;
   padding: 0%;
   box-sizing: border-box; }
@@ -50,417 +36,171 @@ header {
   background-attachment: scroll;
   background-size: cover; }
   header h1 {
+    padding: 2rem;
     text-align: center;
     justify-content: center;
-    font-size: 5rem;
+    font-size: 7rem;
     font-family: 'Quintessential', cursive;
     font-family: 'Ubuntu', sans-serif;
-    font-family: 'Water Brush', cursive;
-    background-color: linear-gradient(to left, blue, grey); }
-  header .pages {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem; }
+    font-family: 'Water Brush', cursive; }
+  header h1 {
+    justify-content: center;
+    font-family: 'Quintessential', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Water Brush', cursive; }
   header h2 {
+    justify-content: center;
     text-align: center;
     font-family: 'Quintessential', cursive;
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Water Brush', cursive;
-    font-size: 3rem; }
-  header .menú ul {
-    text-align: left; }
+    font-size: 5rem; }
+  header .menú {
+    padding: 1rem;
+    text-align: center; }
   header li {
     list-style: none;
-    align-items: left;
-    display: inline-block;
-    justify-content: left;
-    text-align: left;
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 1rem;
-    border: 1px 1px 1px 1px;
-    position: relative;
-    left: 280px;
-    border-right: 1px solid white; }
-  header a {
-    color: black; }
-  header .boton :hover {
-    color: white;
-    background-color: grey; }
-  header .col {
-    border: 1px none white;
-    text-align: center;
-    padding: 1rem;
-    background-color: white; }
-  header .container :hover {
-    color: blue;
-    background-color: grey; }
-  header .logos {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    align-items: center;
-    width: 9rem;
-    height: 9rem;
-    margin-left: 20rem; }
-    header .logos img {
-      padding: 0%;
-      width: 12rem; }
-  header .imageneslogo {
-    display: flex;
-    align-content: center; }
-  header li :hover {
-    color: blue;
-    background-color: white; }
-
-main .grid-container {
-  display: grid;
-  background-position: center center;
-  grid-template-columns: 23rem 23rem 23rem;
-  grid-template-rows: 23rem 23rem;
-  margin-top: 24rem;
-  margin: 0%;
-  align-items: center;
-  justify-content: center; }
-
-main h3 {
-  text-align: center;
-  font-size: 2rem; }
-
-main .grid-container-set-de-palos {
-  margin-top: 28rem; }
-
-main .grid-container div {
-  padding: 2rem;
-  border: 1px none;
-  color: black;
-  text-align: center;
-  align-items: center;
-  font-size: medium;
-  justify-content: center; }
-
-main .card {
-  align-items: center; }
-
-main .card-img-top-1 {
-  margin: 1rem; }
-
-main img {
-  width: 16rem;
-  height: 10rem; }
-
-main .img1 p {
-  margin: 0%;
-  padding: 0%; }
-
-main .card-img-top-2 {
-  margin: 1rem; }
-
-main .img2 img {
-  width: 10rem;
-  height: 10rem; }
-
-main .img2 p {
-  margin: 0%;
-  padding: 0%; }
-
-main .card-img-top-3 {
-  margin: 1rem; }
-
-main .img3 img {
-  width: 12rem;
-  height: 12rem; }
-
-main .img3 p {
-  margin: 0%;
-  padding: 0%; }
-
-main .card-img-top-4 {
-  margin: 1rem; }
-
-main .img4 img {
-  width: 12rem;
-  height: 16rem; }
-
-main .img4 p {
-  margin: 0%;
-  padding: 0%; }
-
-main .card-img-top-5 {
-  margin: 1rem;
-  height: 8rem; }
-
-main .img5 img {
-  width: 11rem; }
-
-main .img5 img {
-  width: 12rem;
-  height: 16rem; }
-
-main .img5 p {
-  margin: 0%;
-  padding: 0%; }
-
-main .card-img-top-6 {
-  margin: 1rem;
-  height: 8rem; }
-
-main .img6 img {
-  width: 12rem;
-  height: 16rem; }
-
-main .img6 p {
-  margin: 0%;
-  padding: 0%; }
-
-/*cards de set de hierros*/
-main .card-1-hierros {
-  padding: 0%; }
-
-main .card-1-hierros img {
-  width: 18rem;
-  height: 12rem; }
-
-main .card-1-hierros h2 {
-  font-size: x-large; }
-
-main .card img {
-  width: 18rem;
-  height: 18rem; }
-
-main .card-2 img {
-  width: 18rem;
-  height: 13rem; }
-
-main .card-3 img {
-  width: 18rem;
-  height: 15rem; }
-
-main .card-4 img {
-  width: 18rem;
-  height: 12rem; }
-
-main .card-5 img {
-  width: 18rem;
-  height: 12rem; }
-
-main .card-5 h2 {
-  font-size: x-large; }
-
-main .card-6 img {
-  width: 18rem;
-  height: 12rem; }
-
-main .card-7 img {
-  width: 18rem;
-  height: 12rem; }
-
-main .card-8 img {
-  width: 8rem;
-  height: 12rem; }
-
-main .card-9 img {
-  width: 15rem;
-  height: 12rem; }
-
-/*cards de la pagina de bolsas*/
-main .card-bolsas img {
-  width: 10rem;
-  height: 12rem; }
-
-main .card-bolsas-2 img {
-  width: 14rem;
-  height: 12rem; }
-
-main .card-bolsas-3 img {
-  width: 12rem;
-  height: 12rem; }
-
-main .card-bolsas-4 img {
-  width: 12rem;
-  height: 14rem; }
-
-main .card-bolsas-5 img {
-  width: 12rem;
-  height: 16rem; }
-
-main .card-bolsas-6 img {
-  width: 10rem;
-  height: 14rem; }
-
-main .card-img-top-5 {
-  width: 16;
-  height: 10; }
-
-/*caeds de la pagina de drivers*/
-main .card-driver img {
-  width: 10rem;
-  height: 12rem; }
-
-main .card-driver-2 img {
-  width: 10rem;
-  height: 12rem; }
-
-main .card-driver-3 img {
-  width: 10rem;
-  height: 13rem; }
-
-main .card-driver-4 img {
-  width: 10rem;
-  height: 13rem; }
-
-main .card-driver-5 img {
-  width: 12rem;
-  height: 13rem; }
-
-main .card-driver-6 img {
-  width: 12rem;
-  height: 14rem; }
-
-/*contacto*/
-main h2 {
-  font-size: 35px; }
-
-main .formulario {
-  padding: 5px;
-  background-image: linear-gradient(#c8d6c9, #edf5f3); }
-
-.información-necesaria {
-  align-items: center;
-  background: linear-gradient(to bottom, #adb6bb, white); }
-
-h3 {
-  margin: 3rem; }
-
-section .card mb-3 {
-  margin: 0%; }
-
-section .card-img {
-  width: 20rem; }
-
-section .card-title {
-  text-align: center;
-  font-size: large; }
-
-section .card-text {
-  text-align: center;
-  font-size: medium; }
-
-section .card bg-dark text-whitey {
-  display: flex;
-  flex-direction: row; }
-
-section h3 {
-  margin-top: 6rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  font-size: x-large; }
-
-section .grid-container-section {
-  display: grid;
-  background-image: linear-gradient(grey, #6969ce);
-  grid-template-columns: 23rem 23rem 23rem;
-  grid-template-rows: 23rem 23rem;
-  margin-top: 18rem;
-  margin: 0%;
-  align-items: center;
-  text-align: center;
-  justify-content: center; }
-  section .grid-container-section .grid-container-section ul {
-    list-style: none; }
-  section .grid-container-section .hijos ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    align-items: center;
-    align-content: center; }
-  section .grid-container-section .imagen-local img {
-    width: 25rem;
-    height: 15rem; }
-  section .grid-container-section p {
     text-align: center; }
 
-section .compra-protegida img {
-  width: 20rem;
-  height: 15rem; }
+h3 {
+  text-align: center;
+  padding-top: 3rem;
+  font-family: fantasy; }
 
-section h4 {
-  display: inline;
-  font-size: medium;
-  padding: 1rem;
-  margin: 1rem; }
+main .col-4-driver img {
+  width: 12rem; }
 
-section p {
-  font-size: medium; }
+main h3 {
+  font-weight: bold;
+  font-size: xx-large; }
 
-section .formas-de-pago img {
-  width: 12rem;
-  height: 12rem; }
+main p {
+  font-weight: bold;
+  font-size: larger; }
 
-.card-img-top-1 {
-  height: 12rem;
-  width: 15rem; }
+main th {
+  margin: 1rem;
+  padding: 2rem;
+  background-color: #eeec63;
+  border: 1px solid black; }
 
-.card-img-top-2 {
-  height: 12rem;
-  width: 15rem; }
+main .formulario {
+  margin: 1rem;
+  padding: 2rem;
+  border: 1px solid black; }
 
-.card-img-top-3 {
-  height: 12rem;
-  width: 15rem; }
+section {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  padding: 2rem; }
+  section div {
+    margin-left: 5rem; }
+  section .card1 img {
+    width: 15rem; }
+  section .card2 img {
+    width: 13rem;
+    height: 17rem; }
+  section p {
+    text-align: center;
+    font-family: fantasy; }
 
-.card-img-top-4 {
-  height: 12rem;
-  width: 15rem; }
+@media (max-widht: 867) {
+  section {
+    display: flex;
+    flex-direction: column; } }
 
-.card-img-top-5 {
-  height: 12rem; }
+h4 {
+  text-align: center;
+  padding-top: 3rem;
+  font-family: fantasy; }
 
-.card-img-top-6 {
-  height: 12rem; }
+article {
+  text-align: center;
+  margin: 5rem;
+  font-weight: bold; }
+  article .imgcontainer7 {
+    height: 15rem; }
+  article .imgcontainer9 {
+    height: 13rem; }
+  article .bolsas p {
+    font-size: fantasy;
+    font-size: larger; }
 
-/*section indumentaria*/
-section .imagen-indumentaria {
+.col {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 1rem; }
+  .col p {
+    font-weight: bold; }
+
+.card-group {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center; }
+  .card-group .card img {
+    align-items: center; }
+  .card-group .card-img-top-1 {
+    align-items: center;
+    height: 12rem;
+    width: 15rem; }
+  .card-group .card-img-top-2 {
+    height: 12rem;
+    width: 15rem; }
+  .card-group .card-img-top-3 {
+    align-items: center;
+    height: 12rem;
+    width: 15rem; }
+  .card-group .card-img-top-4 {
+    height: 12rem;
+    width: 15rem; }
+  .card-group .card-img-top-5 {
+    width: 15rem;
+    height: 12rem; }
+  .card-group .card-img-top-6 {
+    width: 12rem;
+    height: 12rem; }
+
+/*article indumentaria*/
+article .card {
+  align-items: center; }
+
+article .imagen-indumentaria {
   display: flex;
   align-content: space-between;
   flex-direction: row; }
 
-section .img-ind-section {
+article .img-ind-section {
   width: 20rem;
   height: 20rem; }
 
+article li {
+  list-style: none; }
+
 .grid-container-footer {
   display: grid;
-  background-image: linear-gradient(#e0d9d9, white);
   /*grid-template-rows: 23rem;
     margin-top: 18rem;*/
   margin: 0%;
   align-items: center;
   justify-content: center; }
-
-h3 {
-  margin: 1rem;
-  text-align: center;
-  font-size: x-large; }
-
-ul {
-  text-align: center;
-  margin: 1rem;
-  padding: 1rem; }
-
-li {
-  display: inline;
-  text-align: center; }
-
-h4 {
-  text-align: center;
-  font-size: large; }
+  .grid-container-footer h3 {
+    margin: 1rem;
+    text-align: center;
+    font-size: x-large; }
+  .grid-container-footer ul {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem; }
+  .grid-container-footer li {
+    display: inline;
+    text-align: center; }
+  .grid-container-footer h4 {
+    text-align: center;
+    font-size: large; }
 
 .grid-container-footer {
   display: grid;
-  background-color: cornsilk;
   margin-top: 18rem;
   margin: 0%;
   align-items: center;
@@ -470,17 +210,9 @@ ul {
   text-align: center;
   justify-content: center; }
 
-.imagen {
-  transition: all; }
+footer li {
+  display: inline; }
 
-.imagen :hover {
-  transform: rotate(50deg); }
-
-p {
+footer p {
   text-align: center;
-  font-weight: bold;
-  font-size: medium;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
-
-.card-horarios {
   font-weight: bold; }

@@ -1,4 +1,4 @@
-$mapRedes:( facebook,green,twiter,blue, instagram,red,);
+$mapRedes:( facebook green ,twiter yellow, instagram white);
 
 @each $green, $color in $mapRedes {
     .#{$green} {

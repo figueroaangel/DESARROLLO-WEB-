@@ -3,3 +3,8 @@
     margin: 1rem;
     font-size: medium;
 }
+
+.segundoestilo{
+    @extend .estilocardsdelmain;
+    padding: 1rem;
+}

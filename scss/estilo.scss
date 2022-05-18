@@ -1,60 +1,9 @@
+@import "variables", "maps","extend", "mixing";
 
-@import "extend";
-
-/*vista celular*/
-@media (max-width: 767px) {
-    body {
-        text-align: left;
-        grid-template-areas: 
-        "header"
-        "main"
-        "article"
-        "section"
-        "footer";
-    }
-}
-
-
-@media (max-width: 767px) {
-    .menú ul {
-        display: grid;
-        grid-auto-columns: 1fr;
-        flex-direction: column;
-        display: inline;
-        position: relative;
-        text-align: left;
-    }
-}
-
-
-
-
-@media (max-widht: 767px) {
-    .menú li {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-
-@media  (max-width: 768px)  {
-    .grid-container {
-    display: grid;
-    background-color: cornsilk;
-    margin-top: 18rem;
-    margin: 0%;
-    align-items: center;
-}
-}
-@media (max-whidth: 967px) {
-    .grid-container-footer {
-        display: flex;
-        flex-direction: column;
-
-    }
-}
 
 body{
+    background: linear-gradient(0.25turn, #edf7ec, #eeec63, #316d06a6);
+    background-size: cover;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -68,439 +17,180 @@ header{
     background-attachment:scroll;
     background-size: cover;
         h1 {
+        padding: 2rem;
         text-align: center;
         justify-content: center;
-        font-size:5rem;
+        font-size:7rem;
         font-family: 'Quintessential', cursive;
         font-family: 'Ubuntu', sans-serif;
         font-family: 'Water Brush', cursive;
-        background-color: linear-gradient( to left, blue, grey);
-    }
-        .pages{
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 2rem;
-            }
-                h2 {
+        }
+        h1  {
+        justify-content: center;
+        font-family: 'Quintessential', cursive;
+        font-family: 'Ubuntu', sans-serif;
+        font-family: 'Water Brush', cursive;
+        }
+            h2 {
+                justify-content: center;
+                text-align: center;
+                font-family: 'Quintessential', cursive;
+                font-family: 'Ubuntu', sans-serif;
+                font-family: 'Water Brush', cursive;
+                font-size: 5rem;
+                }
+            .menú{
+                padding: 1rem;
+                text-align: $align-items;
+                }
+                    li{
+                    list-style: none;
+                    text-align: $align-items;
+                    }
+                }
+                        h3 {
                         text-align: center;
-                        font-family: 'Quintessential', cursive;
-                        font-family: 'Ubuntu', sans-serif;
-                        font-family: 'Water Brush', cursive;
-                        font-size: 3rem;
+                        padding-top: 3rem;
+                        font-family: $tipo-fuente;
                         }
-    .menú ul {
-        text-align: left;
-    }
-        li{
-        list-style: none;
-        align-items: left;
-        display: inline-block;
-        justify-content: left;
-        text-align: left;
-        font-size: large;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 1rem;
-        border: 1px 1px 1px 1px;
-        position: relative;
-        left: 280px;
-        border-right: 1px solid white
-}
-            a {
-            color: black;
-                }
-                .boton :hover {
-                    color: white;
-                    background-color: grey;
-                }
-                .col {
-                    border: 1px none white;
-                    text-align: center;
-                    padding: 1rem;
-                    background-color: white;
-                }
-                
-                .container :hover{
-                    color: blue;
-                    background-color: grey;
-                }
-                .logos{
-                    list-style:none ;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    height: fit-content;
-                    align-items: center;
-                    width: 9rem;
-                    height: 9rem;
-                    margin-left: 20rem;
-                        img{
-                            padding: 0%;
-                            width: 12rem;
+        
+    
+
+            main{
+                    .col-4-driver img{
+                        width: 12rem;
+                    }
+                        h3{
+                            font-weight: bold;
+                            font-size: xx-large;
+                        } 
+                            p{
+                                font-weight: bold;
+                                font-size: larger;
+                            }
+                            th{
+                                margin: 1rem;
+                                padding: 2rem;
+                                background-color: #eeec63;
+                                border: 1px solid black;
+                            }
+                            .formulario{
+                                margin: 1rem;
+                                padding: 2rem;
+                                border: 1px solid black;
+                            }
                         }
-                                }
-                                .imageneslogo {
-                                    display: flex;
-                                    align-content:center;
-                                }
-                            li :hover {
-                                color: blue;
-                                background-color: white;
-                }
-            } 
 
-
-
-main {
-.grid-container {
-    display: grid;
-    background-position: center center;
-    grid-template-columns: 23rem 23rem 23rem;
-    grid-template-rows: 23rem 23rem;
-    margin-top: 24rem;
-    margin: 0%;
-    align-items: center;
-    justify-content: center;}
-    h3 {
-        text-align: center;
-        font-size: 2rem;
-}
-.grid-container-set-de-palos {
-    margin-top: 28rem;
-}
-            
-.grid-container div {
+section{
+    display: flex;
+    flex-direction: row;
+    margin:2rem;
     padding: 2rem;
-    border: 1px none;
-    color: black;
-    text-align: center;
-    align-items: center;
-    font-size: medium;
-    justify-content: center;
-}
-}
 
-//ordenando cards 1 y 2 del main//
-main{
-    .card {
-        align-items: center;
+    div{
+        margin-left: 5rem;
     }
-    .card-img-top-1 {
-        margin: 1rem;
-    }
-    img {
-        width: 16rem;
-        height: 10rem;   
-    }
-    .img1 p {
-        margin: 0%;
-        padding: 0%;
-    }    
-    .card-img-top-2 {
-        margin: 1rem
-    }
-    .img2 img {
-        width: 10rem;
-        height: 10rem;
-    }
-    .img2 p {
-        margin: 0%;
-        padding: 0%;
-    }
-}
-//ordenando cards 3 y 4 del main//
-main {
-    .card-img-top-3 {
-        margin: 1rem;
-    }
-    .img3 img {
-        width: 12rem;
-        height: 12rem;
-    }
-    .img3 p{
-        margin: 0%;
-        padding: 0%;
-    }
-
-    .card-img-top-4 {
-        margin: 1rem;
-    }
-    .img4 img {
-        width: 12rem;
-        height: 16rem;
-    }
-    .img4 p {
-        margin: 0%;
-        padding: 0%;
-    }
-
-}
-//ordenando las cards 5 y 6 del main//
-main {
-    .card-img-top-5 {
-        margin: 1rem;
-        height: 8rem;}
-        .img5 img{
-        width: 11rem;
-    }  
-    .img5 img{
-        width: 12rem;
-        height: 16rem;
-    }
-    .img5 p {
-        margin: 0%;
-        padding: 0%;
-    }
-
-.card-img-top-6 {
-    margin: 1rem;
-    height: 8rem;
-}
-.img6 img {
-    width: 12rem;
-    height: 16rem;
-}
-.img6 p { 
-    margin: 0%;
-    padding: 0%;
-}
-}
-/*cards de set de hierros*/
-main{
-    .card-1-hierros {
-        padding: 0%;
-    }
-    .card-1-hierros img {
-        width: 18rem;
-        height: 12rem;
-    }
-    .card-1-hierros h2{
-        font-size: x-large;
-    }
-    .card img {
-        width: 18rem;
-        height: 18rem;}
-    .card-2 img {
-            width: 18rem;
-            height: 13rem;}
-    .card-3 img {
-        width: 18rem;
-        height: 15rem;}
-    .card-4 img {
-            width: 18rem;
-            height: 12rem;}
-    .card-5 img {
-            width: 18rem;
-            height: 12rem;}
-    .card-5 h2{
-            font-size: x-large;
-            }
-    .card-6 img {
-            width: 18rem;
-            height: 12rem;}
-    .card-7 img {
-        width: 18rem;
-        height: 12rem;
-    }
-    .card-8 img {
-        width: 8rem;
-        height: 12rem;
-    }
-    .card-9 img {
+    .card1 img{
         width: 15rem;
-        height: 12rem;
-    }
-}
-/*cards de la pagina de bolsas*/ 
-
-main {
-    .card-bolsas img {
-        width: 10rem;
-        height: 12rem;
-    }
-    
-    .card-bolsas-2 img{
-        width: 14rem;
-        height: 12rem;
-    }
-    .card-bolsas-3 img{
-        width: 12rem;
-        height: 12rem;
-}
-.card-bolsas-4 img{
-    width: 12rem;
-    height: 14rem;
-}
-.card-bolsas-5 img{
-    width: 12rem;
-    height: 16rem;
-}
-.card-bolsas-6 img{
-    width: 10rem;
-    height: 14rem;
-}
-.card-img-top-5{
-    width: 16;
-    height: 10;
-}
-}
-/*caeds de la pagina de drivers*/ 
-main {
-    .card-driver img{
-        width: 10rem;
-        height: 12rem;
-    }
-    .card-driver-2 img{
-        width: 10rem;
-        height: 12rem;
-    }
-    .card-driver-3 img{
-        width: 10rem;
-        height: 13rem;
-    }
-    .card-driver-4 img{
-        width: 10rem;
-        height: 13rem;
-    }
-    .card-driver-5 img{
-        width: 12rem;
-        height: 13rem;
-    }
-    .card-driver-6 img{
-        width: 12rem;
-        height: 14rem;
-    }
-}
-
-/*contacto*/
-main{
-    h2{
-        font-size: 35px;
-    }
-    .formulario{
-        padding: 5px;
-        background-image: linear-gradient( rgb(200, 214, 201), rgb(237, 245, 243));
-    }
-}
-//article set de palos// 
-.información-necesaria {
-    align-items: center;
-    background: linear-gradient(to bottom, rgb(173, 182, 187), white);
-    }
-        h3 {
-        margin: 3rem;
-    }
-
-section{
-    .card mb-3{
-        margin: 0%;
-    }
-    .card-img{
-        width: 20rem;
-    }
-    .card-title{
-        text-align: center;
-        font-size: large;
-    }
-    .card-text{
-        text-align: center;
-        font-size: medium;
-    }
-    .card bg-dark text-whitey{
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-section{
-        h3 {
-        margin-top: 6rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-        font-size: x-large;
-}
-
-.grid-container-section {
-    display: grid;
-    background-image: linear-gradient(grey, rgb(105, 105, 206));
-    grid-template-columns: 23rem 23rem 23rem;
-    grid-template-rows: 23rem 23rem;
-    margin-top: 18rem;
-    margin: 0%;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    
-        .grid-container-section ul {
-                list-style: none ;
-                }
-                    .hijos ul {
-                        list-style: none;
-                        display: flex;
-                        justify-content: space-between;
-                        padding: 1rem;
-                        align-items: center;
-                        align-content: center;
-                        }
-                            .imagen-local img{
-                                    width: 25rem;
-                                    height: 15rem;
-                                    }
-                                        p{
-                                            text-align: center;
-                                        }
+        }
+        .card2 img{
+            width: 13rem;
+            height: 17rem;
+        }
+            p{
+            text-align: $align-items;
+            font-family: $tipo-fuente;
         }
     }
 
 
-section {   
-.compra-protegida img {
-    width: 20rem;
-    height: 15rem;
+@media (max-widht:867){
+    section{
+    display: flex;
+    flex-direction: column;
 }
-    h4 {
-    display: inline;
-    font-size: medium;
+}
+h4{
+    text-align: center;
+    padding-top: 3rem;
+    font-family: $tipo-fuente;
+}
+article{
+    text-align: $align-items;
+    margin: 5rem;
+    font-weight: bold;
+    .imgcontainer7{
+        height: 15rem;
+    }
+    .imgcontainer9{
+        height: 13rem;
+    }
+        .bolsas p {
+        font-size: $tipo-fuente;
+        font-size: larger;
+    }
+}
+
+
+.col{
+    text-align: $align-items;
+    margin-bottom: 1rem;
     padding: 1rem;
-    margin: 1rem;}
-    p {
-        font-size: medium;
+    
+        p{
+            font-weight: bold;
+        }
     }
 
-.formas-de-pago img {
-    width: 12rem;
-    height: 12rem;
-}
-}
-//cards section// 
+//cards article// 
 
-.card-img-top-1{
-    height: 12rem;
-    width: 15rem;
-}
-.card-img-top-2 {
-    height: 12rem;
-    width: 15rem;
-}
+.card-group{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: $align-items;
 
-.card-img-top-3 {
-    height: 12rem;
-    width: 15rem;
-}
+        .card img {
+            align-items: $align-items;
+        }
 
-.card-img-top-4 {
-    height: 12rem;
-    width: 15rem;
+            .card-img-top-1{
+                align-items: $align-items;
+                height: 12rem;
+                width: 15rem;
+                }
+            .card-img-top-2 {
+                height: 12rem;
+                width: 15rem;
 }
 
-.card-img-top-5 {
-    height: 12rem;
-}
+            .card-img-top-3 {
+                align-items: $align-items;
+                height: 12rem;
+                width: 15rem;
+                }
 
-.card-img-top-6 {
-    height: 12rem;
-}
+            .card-img-top-4 {
+                height: 12rem;
+                width: 15rem;
+                }
 
-/*section indumentaria*/  
-section{
+            .card-img-top-5 {
+                width: 15rem;
+                height: 12rem;
+                }
+
+            .card-img-top-6 {
+                width: 12rem;
+                height: 12rem;
+            }   
+        }
+/*article indumentaria*/
+
+
+article{
+    .card{
+        align-items: $align-items;
+    }
     .imagen-indumentaria{
         display: flex;
         align-content: space-between;
@@ -510,16 +200,18 @@ section{
         width: 20rem;
         height: 20rem;
     }
+    li{
+        list-style: none;
+    }
 }
 
 .grid-container-footer {
     display: grid;
-    background-image: linear-gradient(rgb(224, 217, 217), white);
     /*grid-template-rows: 23rem;
     margin-top: 18rem;*/
     margin: 0%;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
             h3 {
                 margin: 1rem;
                 text-align: center;
@@ -537,32 +229,31 @@ section{
             text-align: center;
             font-size: large;
             }
+}
+
     // seguimos con el footer//
     
     .grid-container-footer{
             display: grid;
-            background-color: cornsilk;
             margin-top: 18rem;
             margin: 0%;
-            align-items: center;
+            align-items:center;
             justify-content: center;
     }
-            ul {
-            text-align: center;
-            justify-content: center;
-        }
-                .imagen {
-                    transition: all;
+                ul {
+                    text-align: center;
+                    justify-content: center;
+            }
+        footer{
+            li{
+                display: inline;
+
+            }
+                p{
+                    text-align: $align-items;
+                    font-weight: bold;
                 }
-                    .imagen :hover {
-                        transform: rotate(50deg);
-                    }
-                            p{
-                                text-align: center;
-                                font-weight: bold;
-                                font-size: medium;
-                                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                            }
-                            .card-horarios{
-                                font-weight: bold;
-                            }
+        }
+
+        
+    
