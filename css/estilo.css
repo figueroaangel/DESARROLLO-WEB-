@@ -86,7 +86,11 @@ main .formulario {
     margin: 0%;
     padding: 0%; }
     main .col-4 {
-      width: 20rem; } }
+      width: 20rem; }
+    main .p-2 bd-highlight {
+      display: inline-block; }
+    main .th {
+      display: inline-block; } }
 
 section {
   margin: 2rem;
