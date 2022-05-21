@@ -50,6 +50,10 @@ header {
 }
 }
 
+h3{
+  text-align: $align-items;
+  font-weight: bold;
+}
 
 main {
   .d-flex flex-row bd-highlight mb-3{
@@ -210,6 +214,10 @@ article {
   li {
     list-style: none;
   }
+  h3 {
+    text-align: $align-items;
+    font-weight: bold;
+  }
 }
 
 .grid-container-footer {
@@ -251,13 +259,13 @@ ul {
   text-align: center;
   justify-content: center;
 }
-footer {
   li {
     display: inline;
+    list-style: none;
   }
   p {
     text-align: $align-items;
     font-weight: bold;
   }
 }
-}
+

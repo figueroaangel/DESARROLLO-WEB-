@@ -63,6 +63,10 @@ header {
       list-style: none;
       text-align: center; }
 
+h3 {
+  text-align: center;
+  font-weight: bold; }
+
 main .d-flex flex-row bd-highlight mb-3 {
   text-align: center; }
 
@@ -183,6 +187,10 @@ article ul {
 article li {
   list-style: none; }
 
+article h3 {
+  text-align: center;
+  font-weight: bold; }
+
 .grid-container-footer {
   display: grid;
   /*grid-template-rows: 23rem;
@@ -213,8 +221,9 @@ article li {
   .grid-container-footer ul {
     text-align: center;
     justify-content: center; }
-  .grid-container-footer footer li {
-    display: inline; }
-  .grid-container-footer footer p {
+  .grid-container-footer li {
+    display: inline;
+    list-style: none; }
+  .grid-container-footer p {
     text-align: center;
     font-weight: bold; }
