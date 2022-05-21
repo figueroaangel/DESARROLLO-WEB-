@@ -52,25 +52,26 @@ header {
 
 
 main {
+  .d-flex flex-row bd-highlight mb-3{
+    text-align: $align-items;
+  }
   .col-4-driver img {
     width: 12rem;
   }
-
   p {
     font-weight: bold;
     font-size: larger;
-  }
-  th {
-    margin: 1rem;
-    padding: 2rem;
-    background-color: #eeec63;
-    border: 1px solid black;
   }
   .formulario {
     margin: 1rem;
     padding: 2rem;
     border: 1px solid black;
   }
+  .iframe{
+text-align: center;
+align-items: center;
+margin-left: 25rems;
+}
 }
 
 
@@ -79,6 +80,12 @@ and (max-width:767px) {
   main{ 
     margin: 0%;
     padding: 0%;
+    .d-flex flex-row bd-highlight mb-3{
+      display: inline-block;
+    }
+    .d-flex flex-row bd-highlight mb-3 img{
+      width: 5rem; 
+    }
     .container{
       margin: 0%;
     .container img{
@@ -87,6 +94,10 @@ and (max-width:767px) {
     .col-4{
       width: 20rem;
     }
+}
+.iframe{
+  text-align: left;
+  margin-left: 0%;
 }
 }
 }
@@ -97,6 +108,14 @@ section {
   padding: 2rem;
   background: #fdfdfd;
   border-radius: 10px;
+  .card indumentaria{
+    margin-left: 25rem;
+    padding: 0%;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 1rem;
+  }
 }
 
 h4 {
@@ -114,6 +133,10 @@ and (max-width:767px) {
       text-align: center;
       align-items: center;
       display: inline-block;
+      .card{
+        margin-left: 0%;
+        align-items:flex-start;
+      }
 }
 } 
 
@@ -165,14 +188,24 @@ article {
   .card {
     align-items: $align-items;
   }
+  .indumentaria{
+    margin: 3rem;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    align-content:center;
+  }
   .imagen-indumentaria {
     display: flex;
-    align-content: space-between;
-    flex-direction: row;
+    align-content: center
   }
   .img-ind-section {
     width: 20rem;
     height: 20rem;
+  }
+  ul {
+    margin-left: 30rem;
+    padding-top: 1rem;
   }
   li {
     list-style: none;

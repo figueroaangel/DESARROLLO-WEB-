@@ -63,6 +63,9 @@ header {
       list-style: none;
       text-align: center; }
 
+main .d-flex flex-row bd-highlight mb-3 {
+  text-align: center; }
+
 main .col-4-driver img {
   width: 12rem; }
 
@@ -70,33 +73,46 @@ main p {
   font-weight: bold;
   font-size: larger; }
 
-main th {
-  margin: 1rem;
-  padding: 2rem;
-  background-color: #eeec63;
-  border: 1px solid black; }
-
 main .formulario {
   margin: 1rem;
   padding: 2rem;
   border: 1px solid black; }
 
+main .iframe {
+  text-align: center;
+  align-items: center;
+  margin-left: 25rems; }
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   main {
     margin: 0%;
     padding: 0%; }
+    main .d-flex flex-row bd-highlight mb-3 {
+      display: inline-block; }
+    main .d-flex flex-row bd-highlight mb-3 img {
+      width: 5rem; }
     main .container {
       margin: 0%; }
       main .container .container img {
         width: 12rem; }
       main .container .col-4 {
-        width: 20rem; } }
+        width: 20rem; }
+    main .iframe {
+      text-align: left;
+      margin-left: 0%; } }
 
 section {
   margin: 2rem;
   padding: 2rem;
   background: #fdfdfd;
   border-radius: 10px; }
+  section .card indumentaria {
+    margin-left: 25rem;
+    padding: 0%;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 1rem; }
 
 h4 {
   text-align: center;
@@ -109,7 +125,10 @@ h4 {
     padding: 0%;
     text-align: center;
     align-items: center;
-    display: inline-block; } }
+    display: inline-block; }
+    section .card {
+      margin-left: 0%;
+      align-items: flex-start; } }
 
 .card-group {
   margin-top: 3rem;
@@ -142,14 +161,24 @@ h4 {
 article .card {
   align-items: center; }
 
+article .indumentaria {
+  margin: 3rem;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  align-content: center; }
+
 article .imagen-indumentaria {
   display: flex;
-  align-content: space-between;
-  flex-direction: row; }
+  align-content: center; }
 
 article .img-ind-section {
   width: 20rem;
   height: 20rem; }
+
+article ul {
+  margin-left: 30rem;
+  padding-top: 1rem; }
 
 article li {
   list-style: none; }
