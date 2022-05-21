@@ -79,18 +79,17 @@ and (max-width:767px) {
   main{ 
     margin: 0%;
     padding: 0%;
+    .container{
+      margin: 0%;
+    .container img{
+      width: 12rem;
+    }
     .col-4{
       width: 20rem;
     }
-    .p-2 bd-highlight{
-      display: inline-block;
-    }
-    .th{
-      display: inline-block;
-    }
 }
 }
-
+}
 
 section {
   
@@ -98,8 +97,6 @@ section {
   padding: 2rem;
   background: #fdfdfd;
   border-radius: 10px;
-
-
 }
 
 h4 {
@@ -207,10 +204,9 @@ article {
     text-align: center;
     font-size: large;
   }
-}
+
 
 // seguimos con el footer//
-
 .grid-container-footer {
   display: grid;
   margin-top: 18rem;
@@ -230,4 +226,5 @@ footer {
     text-align: $align-items;
     font-weight: bold;
   }
+}
 }
