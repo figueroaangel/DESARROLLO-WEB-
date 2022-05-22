@@ -94,7 +94,11 @@ main form {
       main .container .container img {
         width: 12rem; }
       main .container .col-4 {
-        width: 25px; } }
+        width: 25px; }
+    main .container-fluid {
+      margin: 1rem;
+      margin: 0%;
+      padding: 0%; } }
 
 section {
   margin: 2rem;
@@ -129,8 +133,8 @@ h4 {
     align-items: center;
     display: inline-block; }
     section .card {
-      margin-left: 0%;
-      align-items: flex-start; } }
+      align-items: center;
+      text-align: center; } }
 
 .card-group {
   margin-top: 3rem;
