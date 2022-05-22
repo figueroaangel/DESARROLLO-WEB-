@@ -51,12 +51,6 @@ header {
 }
 
 
-@media only screen and (min-width:0px) 
-and (max-width:767px) {
-  body{
-  background: linear-gradient(0.25turn, #edf7ec, #eeec63, #316d06a6);
-  }
-
 h3{
   text-align: $align-items;
   font-weight: bold;
@@ -296,7 +290,7 @@ article {
               font-weight: bold;
               }
 }
-}
+
 
 
 
