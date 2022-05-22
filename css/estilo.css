@@ -31,6 +31,7 @@ body {
   box-sizing: border-box; }
 
 header {
+  margin: 4rem;
   background-image: url(../img/imagentitulo.jpeg);
   height: 50rem;
   background-repeat: no-repeat;
