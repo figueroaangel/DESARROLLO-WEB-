@@ -66,17 +66,39 @@ main {
     font-weight: bold;
     font-size: larger;
   }
-  .formulario {
-    margin: 1rem;
-    padding: 2rem;
-    border: 1px solid black;
+  .form {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;}
+  
+    .formContainer {
+        width: 27.5rem;
+        text-align: center;
+        border: solid 1px;
+        border-color: black;
+        border-radius: 20px;
+        background-color:white;}
+  
+        .input-border-width {
+            width: 25rem;
+            transition: all;
+  
+            &:focus {
+                width: 30rem;
+                font-size: 20px;
+            }
+        }
+  
+        .form-label {
+            margin-top: 1rem;
+            margin-bottom: 0;
+        }
   }
-  .iframe{
-text-align: center;
-align-items: center;
-margin-left: 25rems;
-}
-}
+
+
 
 
 @media only screen and (min-width:0px) 
@@ -96,30 +118,32 @@ and (max-width:767px) {
       width: 12rem;
     }
     .col-4{
-      width: 20rem;
+      width: 25px;
     }
-}
-.iframe{
-  text-align: left;
-  margin-left: 0%;
 }
 }
 }
 
 section {
-  
   margin: 2rem;
   padding: 2rem;
   background: #fdfdfd;
   border-radius: 10px;
   .card indumentaria{
-    margin-left: 25rem;
+margin-left: 25rem;
     padding: 0%;
     text-align: center;
     align-items: center;
     border: 1px solid black;
     margin-top: 1rem;
   }
+  .card{
+    align-items: center;
+    text-align: $align-items;
+  }
+  .img-fluid{
+    width: 20rem;
+}
 }
 
 h4 {
@@ -268,4 +292,7 @@ ul {
     font-weight: bold;
   }
 }
+
+
+
 

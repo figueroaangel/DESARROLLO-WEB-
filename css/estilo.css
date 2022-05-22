@@ -77,15 +77,32 @@ main p {
   font-weight: bold;
   font-size: larger; }
 
-main .formulario {
-  margin: 1rem;
-  padding: 2rem;
-  border: 1px solid black; }
+main .form {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black; }
 
-main .iframe {
+main .formContainer {
+  width: 27.5rem;
   text-align: center;
-  align-items: center;
-  margin-left: 25rems; }
+  border: solid 1px;
+  border-color: black;
+  border-radius: 20px;
+  background-color: white; }
+
+main .input-border-width {
+  width: 25rem;
+  transition: all; }
+  main .input-border-width:focus {
+    width: 30rem;
+    font-size: 20px; }
+
+main .form-label {
+  margin-top: 1rem;
+  margin-bottom: 0; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   main {
@@ -100,10 +117,7 @@ main .iframe {
       main .container .container img {
         width: 12rem; }
       main .container .col-4 {
-        width: 20rem; }
-    main .iframe {
-      text-align: left;
-      margin-left: 0%; } }
+        width: 25px; } }
 
 section {
   margin: 2rem;
@@ -117,6 +131,11 @@ section {
     align-items: center;
     border: 1px solid black;
     margin-top: 1rem; }
+  section .card {
+    align-items: center;
+    text-align: center; }
+  section .img-fluid {
+    width: 20rem; }
 
 h4 {
   text-align: center;
