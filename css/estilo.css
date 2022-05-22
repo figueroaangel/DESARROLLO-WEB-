@@ -77,32 +77,12 @@ main p {
   font-weight: bold;
   font-size: larger; }
 
-main .form {
-  display: flex;
-  justify-content: center;
-  width: auto;
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black; }
+main form {
+  margin-left: 25rem;
+  padding: 1rem; }
 
-main .formContainer {
-  width: 27.5rem;
-  text-align: center;
-  border: solid 1px;
-  border-color: black;
-  border-radius: 20px;
-  background-color: white; }
-
-main .input-border-width {
-  width: 25rem;
-  transition: all; }
-  main .input-border-width:focus {
-    width: 30rem;
-    font-size: 20px; }
-
-main .form-label {
-  margin-top: 1rem;
-  margin-bottom: 0; }
+main .container-fluid {
+  margin-left: 25rem; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   main {
@@ -135,7 +115,9 @@ section {
     align-items: center;
     text-align: center; }
   section .img-fluid {
-    width: 20rem; }
+    width: 12rem; }
+  section .col-12 text-center {
+    font-weight: bold; }
 
 h4 {
   text-align: center;
@@ -231,12 +213,13 @@ article h3 {
   .grid-container-footer h4 {
     text-align: center;
     font-size: large; }
-  .grid-container-footer .grid-container-footer {
-    display: grid;
-    margin-top: 18rem;
-    margin: 0%;
-    align-items: center;
-    justify-content: center; }
+
+.grid-container-footer {
+  display: grid;
+  margin-top: 18rem;
+  margin: 0%;
+  align-items: center;
+  justify-content: center; }
   .grid-container-footer ul {
     text-align: center;
     justify-content: center; }

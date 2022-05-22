@@ -66,39 +66,15 @@ main {
     font-weight: bold;
     font-size: larger;
   }
-  .form {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    margin: auto;
-    font-family:Arial, Helvetica, sans-serif;
-    color: black;}
-  
-    .formContainer {
-        width: 27.5rem;
-        text-align: center;
-        border: solid 1px;
-        border-color: black;
-        border-radius: 20px;
-        background-color:white;}
-  
-        .input-border-width {
-            width: 25rem;
-            transition: all;
-  
-            &:focus {
-                width: 30rem;
-                font-size: 20px;
-            }
-        }
-  
-        .form-label {
-            margin-top: 1rem;
-            margin-bottom: 0;
-        }
+  form{
+    margin-left: 25rem;
+    padding: 1rem;
   }
-
-
+  .container-fluid{
+    margin-left: 25rem;
+  }
+      }
+    
 
 
 @media only screen and (min-width:0px) 
@@ -120,7 +96,7 @@ and (max-width:767px) {
     .col-4{
       width: 25px;
     }
-}
+  }
 }
 }
 
@@ -130,7 +106,7 @@ section {
   background: #fdfdfd;
   border-radius: 10px;
   .card indumentaria{
-margin-left: 25rem;
+  margin-left: 25rem;
     padding: 0%;
     text-align: center;
     align-items: center;
@@ -142,7 +118,10 @@ margin-left: 25rem;
     text-align: $align-items;
   }
   .img-fluid{
-    width: 20rem;
+    width: 12rem;
+}
+.col-12  text-center{
+  font-weight: bold;
 }
 }
 
@@ -251,24 +230,25 @@ article {
   margin: 0%;
   align-items: center;
   justify-content: center;
-  h3 {
-    margin: 1rem;
-    text-align: center;
-    font-size: x-large;
-  }
+      h3 {
+        margin: 1rem;
+        text-align: center;
+        font-size: x-large;
+      }
   ul {
     text-align: center;
     margin: 1rem;
     padding: 1rem;
   }
-  li {
-    display: inline;
-    text-align: center;
-  }
-  h4 {
-    text-align: center;
-    font-size: large;
-  }
+    li {
+      display: inline;
+      text-align: center;
+    }
+        h4 {
+          text-align: center;
+          font-size: large;
+        }
+}
 
 
 // seguimos con el footer//
@@ -278,21 +258,20 @@ article {
   margin: 0%;
   align-items: center;
   justify-content: center;
-}
-ul {
-  text-align: center;
-  justify-content: center;
-}
-  li {
-    display: inline;
-    list-style: none;
-  }
-  p {
-    text-align: $align-items;
-    font-weight: bold;
-  }
-}
 
+    ul {
+      text-align: center;
+      justify-content: center;
+    }
+        li {
+          display: inline;
+          list-style: none;
+        }
+            p {
+              text-align: $align-items;
+              font-weight: bold;
+              }
+}
 
 
 
