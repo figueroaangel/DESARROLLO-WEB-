@@ -31,7 +31,6 @@ body {
   box-sizing: border-box; }
 
 header {
-  margin: 4rem;
   background-image: url(../img/imagentitulo.jpeg);
   height: 50rem;
   background-repeat: no-repeat;
@@ -65,24 +64,23 @@ header {
       list-style: none;
       text-align: center; }
 
-h3 {
-  text-align: center;
-  font-weight: bold; }
-
-main .d-flex flex-row bd-highlight mb-3 {
-  text-align: center; }
-
-main .col-4-driver img {
-  width: 12rem; }
-
-main p {
-  font-weight: bold;
-  font-size: larger; }
-
-main form {
-  padding: 1rem; }
-
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  body {
+    background: linear-gradient(0.25turn, #edf7ec, #eeec63, #316d06a6); }
+  h3 {
+    text-align: center;
+    font-weight: bold; }
+  main .d-flex flex-row bd-highlight mb-3 {
+    text-align: center; }
+  main .col-4-driver img {
+    width: 12rem; }
+  main p {
+    font-weight: bold;
+    font-size: larger; }
+  main form {
+    padding: 1rem; } }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) and (min-width: 0px) and (max-width: 767px) {
   main {
     margin: 0%;
     padding: 0%; }
@@ -97,32 +95,32 @@ main form {
       main .container .col-4 {
         width: 25px; } }
 
-section {
-  margin: 2rem;
-  padding: 2rem;
-  background: #fdfdfd;
-  border-radius: 10px; }
-  section .card indumentaria {
-    margin-left: 25rem;
-    padding: 0%;
-    text-align: center;
-    align-items: center;
-    border: 1px solid black;
-    margin-top: 1rem; }
-  section .card {
-    align-items: center;
-    text-align: center; }
-  section .img-fluid {
-    width: 12rem; }
-  section .col-12 text-center {
-    font-weight: bold; }
-
-h4 {
-  text-align: center;
-  padding-top: 3rem;
-  font-family: fantasy; }
-
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  section {
+    margin: 2rem;
+    padding: 2rem;
+    background: #fdfdfd;
+    border-radius: 10px; }
+    section .card indumentaria {
+      margin-left: 25rem;
+      padding: 0%;
+      text-align: center;
+      align-items: center;
+      border: 1px solid black;
+      margin-top: 1rem; }
+    section .card {
+      align-items: center;
+      text-align: center; }
+    section .img-fluid {
+      width: 12rem; }
+    section .col-12 text-center {
+      font-weight: bold; }
+  h4 {
+    text-align: center;
+    padding-top: 3rem;
+    font-family: fantasy; } }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) and (min-width: 0px) and (max-width: 767px) {
   section {
     margin: 0%;
     padding: 0%;
@@ -133,115 +131,104 @@ h4 {
       margin-left: 0%;
       align-items: flex-start; } }
 
-.card-group {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  text-align: center; }
-  .card-group .card img {
-    align-items: center; }
-  .card-group .card-img-top-1 {
-    align-items: center;
-    height: 12rem;
-    width: 15rem; }
-  .card-group .card-img-top-2 {
-    height: 12rem;
-    width: 15rem; }
-  .card-group .card-img-top-3 {
-    align-items: center;
-    height: 12rem;
-    width: 15rem; }
-  .card-group .card-img-top-4 {
-    height: 12rem;
-    width: 15rem; }
-  .card-group .card-img-top-5 {
-    width: 15rem;
-    height: 12rem; }
-  .card-group .card-img-top-6 {
-    width: 12rem;
-    height: 12rem; }
-
-/*article indumentaria*/
-article .card {
-  align-items: center; }
-
-article .indumentaria {
-  margin: 3rem;
-  padding: 1rem;
-  text-align: center;
-  align-items: center;
-  align-content: center; }
-
-article .imagen-indumentaria {
-  display: flex;
-  align-content: center; }
-
-article .img-ind-section {
-  width: 20rem;
-  height: 20rem; }
-
-article ul {
-  margin-left: 30rem;
-  padding-top: 1rem; }
-
-article li {
-  list-style: none; }
-
-article h3 {
-  text-align: center;
-  font-weight: bold; }
-
-article .bolsas {
-  margin: 4rem;
-  text-align: center;
-  justify-content: center;
-  font-size: small; }
-
-article .información-necesaria {
-  margin: 4rem;
-  text-align: center;
-  justify-content: center;
-  font-size: small; }
-
-article .card-body-aprendiendo-a-elegir-driver {
-  margin: 4rem;
-  text-align: center;
-  justify-content: center;
-  font-size: small; }
-
-.grid-container-footer {
-  display: grid;
-  /*grid-template-rows: 23rem;
-    margin-top: 18rem;*/
-  margin: 0%;
-  align-items: center;
-  justify-content: center; }
-  .grid-container-footer h3 {
-    margin: 1rem;
-    text-align: center;
-    font-size: x-large; }
-  .grid-container-footer ul {
-    text-align: center;
-    margin: 1rem;
-    padding: 1rem; }
-  .grid-container-footer li {
-    display: inline;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .card-group {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     text-align: center; }
-  .grid-container-footer h4 {
+    .card-group .card img {
+      align-items: center; }
+    .card-group .card-img-top-1 {
+      align-items: center;
+      height: 12rem;
+      width: 15rem; }
+    .card-group .card-img-top-2 {
+      height: 12rem;
+      width: 15rem; }
+    .card-group .card-img-top-3 {
+      align-items: center;
+      height: 12rem;
+      width: 15rem; }
+    .card-group .card-img-top-4 {
+      height: 12rem;
+      width: 15rem; }
+    .card-group .card-img-top-5 {
+      width: 15rem;
+      height: 12rem; }
+    .card-group .card-img-top-6 {
+      width: 12rem;
+      height: 12rem; }
+  /*article indumentaria*/
+  article .card {
+    align-items: center; }
+  article .indumentaria {
+    margin: 3rem;
+    padding: 1rem;
     text-align: center;
-    font-size: large; }
-
-.grid-container-footer {
-  display: grid;
-  margin-top: 18rem;
-  margin: 0%;
-  align-items: center;
-  justify-content: center; }
-  .grid-container-footer ul {
-    text-align: center;
-    justify-content: center; }
-  .grid-container-footer li {
-    display: inline;
+    align-items: center;
+    align-content: center; }
+  article .imagen-indumentaria {
+    display: flex;
+    align-content: center; }
+  article .img-ind-section {
+    width: 20rem;
+    height: 20rem; }
+  article ul {
+    margin-left: 30rem;
+    padding-top: 1rem; }
+  article li {
     list-style: none; }
-  .grid-container-footer p {
+  article h3 {
     text-align: center;
     font-weight: bold; }
+  article .bolsas {
+    margin: 4rem;
+    text-align: center;
+    justify-content: center;
+    font-size: small; }
+  article .información-necesaria {
+    margin: 4rem;
+    text-align: center;
+    justify-content: center;
+    font-size: small; }
+  article .card-body-aprendiendo-a-elegir-driver {
+    margin: 4rem;
+    text-align: center;
+    justify-content: center;
+    font-size: small; }
+  .grid-container-footer {
+    display: grid;
+    /*grid-template-rows: 23rem;
+    margin-top: 18rem;*/
+    margin: 0%;
+    align-items: center;
+    justify-content: center; }
+    .grid-container-footer h3 {
+      margin: 1rem;
+      text-align: center;
+      font-size: x-large; }
+    .grid-container-footer ul {
+      text-align: center;
+      margin: 1rem;
+      padding: 1rem; }
+    .grid-container-footer li {
+      display: inline;
+      text-align: center; }
+    .grid-container-footer h4 {
+      text-align: center;
+      font-size: large; }
+  .grid-container-footer {
+    display: grid;
+    margin-top: 18rem;
+    margin: 0%;
+    align-items: center;
+    justify-content: center; }
+    .grid-container-footer ul {
+      text-align: center;
+      justify-content: center; }
+    .grid-container-footer li {
+      display: inline;
+      list-style: none; }
+    .grid-container-footer p {
+      text-align: center;
+      font-weight: bold; } }
