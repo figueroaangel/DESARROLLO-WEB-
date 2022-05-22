@@ -67,11 +67,7 @@ main {
     font-size: larger;
   }
   form{
-    margin-left: 25rem;
     padding: 1rem;
-  }
-  .container-fluid{
-    margin-left: 25rem;
   }
       }
     
@@ -220,6 +216,27 @@ article {
   h3 {
     text-align: $align-items;
     font-weight: bold;
+  }
+}
+
+article {
+  .bolsas{
+    margin: 4rem;
+    text-align: $align-items;
+    justify-content: center;
+    font-size: small;
+  }
+  .información-necesaria{
+    margin: 4rem;
+    text-align: $align-items;
+    justify-content: center;
+    font-size: small;
+  }
+  .card-body-aprendiendo-a-elegir-driver{
+    margin: 4rem;
+    text-align: $align-items;
+    justify-content: center;
+    font-size: small;
   }
 }
 
