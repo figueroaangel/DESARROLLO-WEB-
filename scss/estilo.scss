@@ -32,6 +32,9 @@ header {
     font-family: "Ubuntu", sans-serif;
     font-family: "Water Brush", cursive;
   }
+  .tituloind{
+    font-size: 4rem;
+  }
   h2 {
     justify-content: center;
     text-align: center;
@@ -48,6 +51,20 @@ header {
     text-align: $align-items;
   }
 }
+}
+
+@media only screen and (min-width:0px) 
+and (max-width:767px) {
+  header {
+    .tituloind {
+      width: 2rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      padding: 0%;
+      justify-content: left;
+      text-align: left;
+    }
+  }
 }
 
 

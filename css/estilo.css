@@ -50,6 +50,8 @@ header {
     font-family: "Quintessential", cursive;
     font-family: "Ubuntu", sans-serif;
     font-family: "Water Brush", cursive; }
+  header .tituloind {
+    font-size: 4rem; }
   header h2 {
     justify-content: center;
     text-align: center;
@@ -63,6 +65,15 @@ header {
     header .menu li {
       list-style: none;
       text-align: center; }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  header .tituloind {
+    width: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0%;
+    justify-content: left;
+    text-align: left; } }
 
 h3 {
   text-align: center;
